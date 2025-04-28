@@ -98,7 +98,7 @@ module.exports = validate;
 
 ---
 
-## Integración en tu proyecto
+## Integración en el proyecto
 
 ```javascript
 const validate = require('./validator');
