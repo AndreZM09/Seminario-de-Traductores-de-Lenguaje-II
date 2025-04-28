@@ -1,0 +1,7 @@
+x = 42;
+print(x);
+if (x > 10) {
+    print(x);
+} else {
+    print(0);
+}
