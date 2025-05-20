@@ -98,7 +98,7 @@ module.exports = validate;
 
 ---
 
-## Integración en tu proyecto
+## Integración en el proyecto
 
 ```javascript
 const validate = require('./validator');
@@ -109,17 +109,3 @@ if (!validate(data)) {
 } else {
   console.log('Datos válidos');
 }
-```
-
----
-
-## Extensiones y mejoras
-
-- Soporte para más restricciones y tipos (p.ej. rangos numéricos, expresiones regulares).  
-- Generación automática de tipos TypeScript a partir del AST.  
-- Modo watch/auto-rebuild en la CLI.  
-- Plugins para reglas personalizadas.  
-
----
-
-**¡Listo!** Este traductor automatiza la validación de datos en tu aplicación, garantizando integridad y calidad con un flujo sencillo.
